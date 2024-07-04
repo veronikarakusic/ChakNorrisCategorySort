@@ -8,23 +8,8 @@
 </head>
 <body>
     <div id="joke-container">
-        <select id="category-select">
-            <option value="">Select a category</option>
-            <option value="animal">Animal</option>
-            <option value="career">Career</option>
-            <option value="celebrity">Celebrity</option>
-            <option value="dev">Dev</option>
-            <option value="fashion">Fashion</option>
-            <option value="food">Food</option>
-            <option value="history">History</option>
-            <option value="money">Money</option>
-            <option value="movie">Movie</option>
-            <option value="music">Music</option>
-            <option value="political">Political</option>
-            <option value="religion">Religion</option>
-            <option value="science">Science</option>
-            <option value="sport">Sport</option>
-            <option value="travel">Travel</option>
+        <select name="category" id="category">
+            <option value="" disabled selected>Select a category</option>
         </select>
         <button onclick="getJoke()" class="btn">Get Joke</button>
         <p id="joke"></p>
