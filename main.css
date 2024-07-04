@@ -1,0 +1,71 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Kontejner za sve elemente */
+#joke-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Naslov */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Stiliziranje selektora */
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Stiliziranje gumba */
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    background-color: #004085;
+    transform: translateY(2px);
+}
+
+/* Stiliziranje prikaza šale */
+#joke {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #007bff;
+}
